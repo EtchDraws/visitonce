@@ -9,7 +9,7 @@ p {
 </style>
 <head>
   <script src="java.js"></script>
-<title>Keep open!</title>
+<title id="tech"></title>
 </head>
 <body>
 
@@ -45,6 +45,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "It's summer! Introducing new art!! Go here! https://etchdraws.github.io/etchscafe-home/";
+    document.getElementById("tech").innerHTML = "Attention!";
   }
 }, 1000);
 </script>
